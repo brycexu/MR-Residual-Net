@@ -20,7 +20,7 @@ Model: Original ResNet for Merge and Run
 
 Paper: (https://arxiv.org/abs/1611.07718)
 
-Netscope: Coming soon
+Netscope: [Network](http://ethereon.github.io/netscope/#/gist/46029162791a6f9b6a9e54e7742c12d4)
 
 Accuracy on Cifar-10: 92.15% with 80 epoches
 
