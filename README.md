@@ -8,7 +8,7 @@ Model: ResNet-18
 
 Paper: (https://arxiv.org/abs/1512.03385)
 
-Netscope: Coming soon
+Netscope: [Network](http://ethereon.github.io/netscope/#/gist/20db0c9bcdf859d2ffa0a5a55fe9b979)
 
 Accuracy on Cifar-10: 93.28% with 80 epoches
 
