@@ -16,7 +16,7 @@ Accuracy on Cifar-10: 93.28% with 80 epoches
 
 Merge and Run
 ---------
-Model: Adapted ResNet-21 for Merge and Run
+Model: Original ResNet for Merge and Run
 
 Paper: (https://arxiv.org/abs/1611.07718)
 
