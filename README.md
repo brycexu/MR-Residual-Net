@@ -34,7 +34,7 @@ Binarized Accuracy on Cifar-10: 87.77% with 80 epoches
 
 * Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a convolusion (kernel-size:1, stride:2, padding:0)
 
-<div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-18 (binarized).png"/></div>
+<div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-18 (binarized, conv).png"/></div>
 
 Binarized Accuracy on Cifar-10: with 80 epoches
 
@@ -54,9 +54,13 @@ Binarized Accuracy on Cifar-10: 90.46% with 80 epoches
 
 * Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a convolusion (kernel-size:1, stride:2, padding:0)
 
+<div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-32 (binarized, conv).png"/></div>
+
 Binarized Accuracy on Cifar-10: 92.58% with 80 epoches
 
 * Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a average pooling (stride:2, padding:2)
+
+<div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-32 (binarized, avg).png"/></div>
 
 ## Binarization Principle
 
@@ -67,8 +71,6 @@ Binarized Accuracy on Cifar-10: 92.58% with 80 epoches
 * BatchNorms in binarized blocks have no affine weights and bias parameters.
 
 * Since activations are not binarized, ReLU is used instead of HardTanh (https://arxiv.org/pdf/1602.02830).
-
-* Downsampling in Merge and Run models is done by firstly concatenating left-branch and right-branch and secondly using a convolusion (kernel-size:1, stride:2, padding:0)
 
 
 
