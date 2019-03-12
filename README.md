@@ -2,7 +2,7 @@ This repository contains my evaluations of Merge and Run in Binarized Residual N
 
 Copyright: Xianda Xu xiandaxu@std.uestc.edu.cn
 
-Experimental Results
+Experimental Results on Cifar-10
 --------
 
 | Accuracy         | Full-Precise (1)        | Binarized (1)  | Binarized (2)  | Netscope           |
