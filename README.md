@@ -11,9 +11,9 @@ Evaluation on Cifar-10
 | MR-ResNet-20     | 92.15%                 | 87.77%         | 90.48%         | [Network](http://ethereon.github.io/netscope/#/gist/46029162791a6f9b6a9e54e7742c12d4)       |
 | MR-ResNet-32     | 93.39%                 | 90.46%         | 92.58%         | [Network](http://ethereon.github.io/netscope/#/gist/02d5971a830d6c71a8a96a0a65ab3016)       |  
 
-Style 1 does downsampling by using concatenation and convolusion
+Style 1 does downsampling by using concatenation and convolusion (kernel_size=1, stride=2, padding=0)
 
-Style 2 does downsampling by using concatenation and average pooling
+Style 2 does downsampling by using concatenation and average pooling (kernel_size=2, stride=2)
 
 Binarization Principle
 ---------
@@ -62,7 +62,7 @@ Binarized Accuracy on Cifar-10: 87.77% with 80 epoches
 
 Binarized Accuracy on Cifar-10: 90.48% with 80 epoches
 
-* Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a average pooling (stride:2, padding:2)
+* Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a average pooling (kernel_size:2, stride:2)
 
 <div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-18 (binarized, avg).png"/></div>
 
@@ -84,7 +84,7 @@ Binarized Accuracy on Cifar-10: 90.46% with 80 epoches
 
 Binarized Accuracy on Cifar-10: 92.58% with 80 epoches
 
-* Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a average pooling (stride:2, padding:2)
+* Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a average pooling (kernel_size:2, stride:2)
 
 <div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-32 (binarized, avg).png"/></div>
 
