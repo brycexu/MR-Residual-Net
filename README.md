@@ -40,7 +40,9 @@ Paper: (https://arxiv.org/abs/1611.07718)
 
 Netscope: Coming soon
 
-Full-Precise Accuracy on Cifar-10: Coming soon
+Full-Precise Accuracy on Cifar-10: 93.39% with 80 epoches
+
+<div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-32.png"/></div>
 
 Binarized Accuracy on Cifar-10: 91.26% with 80 epoches
 
