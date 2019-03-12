@@ -5,7 +5,7 @@ Copyright: Xianda Xu xiandaxu@std.uestc.edu.cn
 Experimental Results
 --------
 
-| Accuracy         | Full-Precise           | Binarized (1)  | Binarized (2)  | Netscope           |
+| Accuracy         | Full-Precise(1)        | Binarized (1)  | Binarized (2)  | Netscope           |
 | ---------------- |:----------------------:|:--------------:|:--------------:|:------------------:|           
 | ResNet-18        | 93.28%                 | 90.50%         |                | [Network](http://ethereon.github.io/netscope/#/gist/20db0c9bcdf859d2ffa0a5a55fe9b979)       |
 | MR-ResNet-20     | 92.15%                 | 87.77%         | 90.48%         | [Network](http://ethereon.github.io/netscope/#/gist/46029162791a6f9b6a9e54e7742c12d4)       |
