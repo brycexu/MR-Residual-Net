@@ -32,7 +32,13 @@ Full-Precise Accuracy on Cifar-10: 92.15% with 80 epoches
 
 Binarized Accuracy on Cifar-10: 87.77% with 80 epoches
 
+* Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a convolusion (kernel-size:1, stride:2, padding:0)
+
 <div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-18 (binarized).png"/></div>
+
+Binarized Accuracy on Cifar-10: with 80 epoches
+
+* Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a average pooling (stride:2, padding:2)
 
 ### Model: MR-ResNet-32 (the depth is identical to the baseline ResNet-18 model)
 
@@ -44,9 +50,13 @@ Full-Precise Accuracy on Cifar-10: 93.39% with 80 epoches
 
 <div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-32.png"/></div>
 
-Binarized Accuracy on Cifar-10: 91.26% with 80 epoches
+Binarized Accuracy on Cifar-10: 90.46% with 80 epoches
 
-<div align=center><img width="453" height="200" src="https://github.com/brycexu/MR-Residual-Net/blob/master/Images/MR-32 (binarized).png"/></div>
+* Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a convolusion (kernel-size:1, stride:2, padding:0)
+
+Binarized Accuracy on Cifar-10: 92.58% with 80 epoches
+
+* Downsampling is done by firstly concatenating left-branch and right-branch and secondly using a average pooling (stride:2, padding:2)
 
 ## Binarization Principle
 
