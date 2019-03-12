@@ -1,6 +1,6 @@
 import torch.nn as nn
 import torch.nn.functional as F
-from Merge_and_Run.utils import PreActBlock_MR
+from utils import PreActBlock_MR
 
 class PreActResNet_MR(nn.Module):
     def __init__(self, block, num_classes=10):

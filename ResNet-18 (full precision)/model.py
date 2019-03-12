@@ -1,4 +1,4 @@
-from Baseline.utils import PreActBlock
+from utils import PreActBlock
 import torch.nn as nn
 import torch.nn.functional as F
 

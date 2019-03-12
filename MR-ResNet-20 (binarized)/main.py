@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
-import Binarized_Merge_and_Run_Structure2.model as model
+import model as model
 from torch.autograd import Variable
 import os
 from logger import Logger

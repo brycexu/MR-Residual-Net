@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from Binarized_Merge_and_Run_Structure2.utils import PreActBlock_MR, ModuleBinarizable, init_weight
+from utils import PreActBlock_MR, ModuleBinarizable, init_weight
 
 class PreActResNet_MR(ModuleBinarizable):
     def __init__(self, block, num_classes=10):
